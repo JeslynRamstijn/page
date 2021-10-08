@@ -6,13 +6,13 @@
 			"use strict";
 
 			
-			function hoch 3(number) {
+			function hoch3(number) {
 				return number*number*number;
 			}
 			
 			function clicked() {
 				var input = document.getElementById("idInput").value;
-				var output = calc(input);
+				var output = hoch3(input);
 				document.getElementById("idOutput").innerHTML = output;
 			}
 
